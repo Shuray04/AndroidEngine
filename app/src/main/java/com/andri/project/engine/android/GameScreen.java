@@ -6,6 +6,7 @@ import android.graphics.Point;
 import android.opengl.GLSurfaceView;
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.andri.project.R;
 import com.andri.project.engine.input.TouchHandler;
 import com.andri.project.engine.math.Vec2;
 
@@ -30,6 +31,7 @@ public class GameScreen extends GLSurfaceView {
         app.getWindowManager().getDefaultDisplay().getRealSize(p);
         screenSize = new Vec2(p.x, p.y);
         ratio = screenSize.x / screenSize.y;
+
 
         setOnTouchListener(new TouchHandler());
         setRenderer(new com.andri.project.engine.graphics.Renderer());
