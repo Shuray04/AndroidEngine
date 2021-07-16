@@ -22,7 +22,7 @@ public class TouchHandler implements View.OnTouchListener {
         for (int i = 0; i < e.getPointerCount(); i++){
             pointers.add(new Vec2(((e.getX(0) / GameScreen.screenSize.x) * 2 - 1) * GameScreen.ratio, -(e.getY(0) / GameScreen.screenSize.y) * 2 + 1));
             System.out.println(((e.getX(0) / GameScreen.screenSize.x) * 2 - 1) * GameScreen.ratio + "           " + -(e.getY(0) / GameScreen.screenSize.y) * 2 + 1);
-            //System.out.println(GameScreen.resources.getString(R.string.game_orientation));
+            System.out.println(GameScreen.resources.getString(R.string.game_orientation));
         }
         return true;
     }

@@ -1,4 +1,4 @@
 <resources>
     <string name="app_name">Engine</string>
-    <string name="game_orientation">sensorPortrait </string>
+    <string name="game_orientation">sensorPortrait</string>
 </resources>
