@@ -61,6 +61,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     public void onBackPressed() {
         getWindow().getDecorView().setSystemUiVisibility(hideSystemBars());
+        //lmao this is a line of code
     }
 
     @Override
